@@ -1,6 +1,33 @@
-.content {
+body {
   position: absolute;
   top: 20%;
   left: 20%;
   overflow: hidden;
+}
+
+.links {
+  text-align: center;
+  font-size: 1.5em;
+  cursor: pointer;
+  outline: none;
+}
+
+#linkedin:hover {
+  color: #0078b9;
+}
+
+#github:hover {
+  color: grey;
+}
+
+#instagram:hover {
+  color: #574ccd;
+}
+
+#flickr:hover {
+  color: #ff007d;
+}
+
+#youtube:hover {
+  color: red;
 }
