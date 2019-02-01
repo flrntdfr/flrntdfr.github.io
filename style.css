@@ -1,5 +1,10 @@
 body {
+    background-image: url("https://c1.staticflickr.com/5/4278/35428784326_b132d8292b_b_d.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
   position: absolute;
   top: 20%;
   left: 20%;
+  overflow: hidden;
 }
