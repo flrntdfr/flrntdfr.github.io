@@ -1,12 +1,19 @@
-*{
-  margin: 0;
-  padding: 0;
+body{
+  font-family: monospace, Courier, Times;
+  padding-top: 20px;
+  padding-left: 20px;
 }
 
-body {
+.container {
   text-align: center;
-  overflow: hidden; /* Prevent scrolling */
-  font-family: monospace, Courier, Times;
+}
+
+h1 {
+ width: 40%;
+}
+
+p {
+  width: 70%;
 }
 
 .container {
@@ -23,11 +30,14 @@ body {
   cursor: pointer;
 }
 
-.more {
+footer {
+  padding-top: 14px;
+  text-align: center;
   position: fixed;
   width: 100%;
-  /*background-color: yellow;*/
-  bottom: 20px;
+  height: 30px;
+  bottom: 0px;
+  background-color: white;
   text-decoration: underline;
 }
 
@@ -56,9 +66,13 @@ body {
   color: red;
 }
 
-a{
-  margin: 0;
-  padding: 0;
+#mail:hover {
+  color: blue;
+}
+
+a {
+  margin: 0px;
+  padding: 0px;
 }
 
 a:hover {
