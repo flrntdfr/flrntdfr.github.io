@@ -1,31 +1,32 @@
-function Ball() {
+class Ball {
 
-  // Offset along the perlin path
-  var xoff1 = random(0, 1000);
-  var xoff2 = random(100000, 100000000);
+  constructor(){
+    // Offset along the perlin path
+    this.xoff1 = random(0, 1000);
+    this.xoff2 = random(100000, 100000000);
+    this.x = random(0, windowWidth);
+    this.y = random(0, windowHeight);
+    this.history = [];
+    this.category = "";
+    this.name = "Name of the project";
+    this.link = "";
+  }
 
-  this.x = random(0, windowWidth);
-  this.y = random(0, windowHeight);
-  this.history = [];
-  this.category = ""
-  this.name = "Name of the project"
-  this.link = "";
+  update() {
+    this.xoff1 += 0.002;
+    this.xoff2 += 0.002;
 
-  this.update = function() {
-    xoff1 += 0.002;
-    xoff2 += 0.002;
-
-    this.x = map(noise(xoff1), 0, 1, 0, windowWidth);
-    this.y = map(noise(xoff2), 0, 1, 0, windowHeight);
+    this.x = map(noise(this.xoff1), 0, 1, 0, windowWidth);
+    this.y = map(noise(this.xoff2), 0, 1, 0, windowHeight);
 
     var v = createVector(this.x, this.y);
     this.history.push(v);
     if (this.history.length > 15) {
       this.history.splice(0, 1);
     }
-  };
+  }
 
-  this.show = function() {
+  show() {
     var len = this.history.length;
     noStroke();
 
@@ -41,13 +42,15 @@ function Ball() {
       ellipse(pos.x, pos.y, d);
     }
     endShape();
-  };
+  }
 
-  this.highlight = function() {
+  highlight() {
     stroke(0);
     strokeWeight(1);
     noFill();
     ellipse(this.x, this.y, 70);
+    noStroke();
+    fill(0);
+    text("name", 30, 40);
   }
-
 }
