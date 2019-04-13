@@ -87,3 +87,7 @@ a, a:visited {
 img {
     pointer-events: none;
 }
+
+ul{
+  list-style-type: square;
+}
