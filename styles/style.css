@@ -1,14 +1,10 @@
-body{
+body {
   font-family: monospace, Courier, Times;
   padding-left: 20px;
 }
 
-.container {
-  text-align: center;
-}
-
 h1 {
- width: 40%;
+  width: 40%;
 }
 
 p {
@@ -16,6 +12,7 @@ p {
 }
 
 .container {
+  text-align: center;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -40,7 +37,6 @@ footer {
   background-color: white;
   text-decoration: underline;
 }
-
 
 #linkedin:hover {
   color: #0078b9;
@@ -85,9 +81,30 @@ a, a:visited {
 }
 
 img {
-    pointer-events: none;
+  pointer-events: none;
 }
 
-ul{
+nav {
+  background: white;
+  /* Hide balls that go under*/
+  position: absolute;
+  text-align: center;
+  padding: 20px;
+  border: solid;
+  border-width: 2px;
+  left: 20px;
+  top: 20px;
+}
+
+ul {
   list-style-type: square;
+  text-align: left;
+}
+
+.warningMessage {
+  position: absolute;
+  right: 30px;
+  bottom: 50px;
+  padding: 30px;
+  background: #fdf52b;
 }

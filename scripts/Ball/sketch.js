@@ -14,16 +14,15 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   pixelDensity(2);
   cursor(CROSS);
-  
+
   // Prepare dom elements on the page
+  rectMode(CENTER);
   nav = createElement('nav', 'FILTER');
   nameOfSelected = createP();
   categories = removeDuplicates(table.getColumn('category'));
-  nav.position(10, 10);
-  nameOfSelected.position(10, windowHeight - 100);
+  nameOfSelected.position(width/2, 30); //TODO: Use CSS
   let ul = createElement('ul');
   nav.child(ul);
-
 
   // Populate the navigation filter
   for (let i = 0; i < categories.length; i++) {
