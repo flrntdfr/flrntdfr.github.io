@@ -72,6 +72,10 @@ footer {
   color: red;
 }
 
+#docker-hub:hover{
+  color: #00a3d9;
+}
+
 a {
   margin: 0px;
   padding: 0px;
