@@ -1,11 +1,11 @@
+/*---------Commons----------*/
+
 body {
   font-family: monospace, Courier, Times;
-  padding-left: 20px;
   padding-bottom: 40px;
 }
 
 h1 {
-  width: 60%;
   text-align: right;
 }
 
@@ -16,10 +16,86 @@ h1:after {
 }
 
 p {
-  width: 60%;
   padding-left: 20px;
-
+  margin-top: 5px;
+  text-align: justify;
 }
+
+a:link {
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+  background: #fdf52b;
+}
+
+.container a:hover{
+  background: none;
+}
+
+a, a:visited {
+  text-decoration: underline;
+  color: inherit;
+}
+
+img {
+  pointer-events: none;
+}
+
+footer {
+  padding-top: 14px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  height: 30px;
+  left: 0;
+  bottom: 0;
+  background-color: white;
+}
+
+ul {
+  list-style-type: square;
+  text-align: left;
+}
+
+/*---------More pro----------*/
+
+.wrapper {
+  display: flex;
+}
+
+nav {
+    /*background: red;*/
+    /*position: fixed;*/
+    padding-right: 20px;
+    margin-right: 20px;
+    border-right: solid black 2px;
+}
+
+.cv {
+  /*background: blue;*/
+  width: 60%;
+}
+
+nav p {
+  background: lightGrey;
+  width:100%;
+  padding-left: 0px;
+  margin-top: 1em;
+  text-align: center;
+}
+
+nav li{
+  line-height: 1.5em;
+  list-style-type: none;
+}
+
+p + h2 {
+  padding-top: 2em;
+}
+
+/*---------Index----------*/
 
 .container {
   text-align: center;
@@ -31,21 +107,15 @@ p {
 }
 
 .links {
-  text-align: center;
+  display: flex;
   font-size: 1.5em;
   cursor: pointer;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-footer {
-  padding-top: 14px;
-  text-align: center;
-  position: fixed;
-  width: 100%;
-  height: 30px;
-  left: 0;
-  bottom: 0px;
-  background-color: white;
-  text-decoration: underline;
+.links span {
+  flex: 1;
 }
 
 #linkedin:hover {
@@ -76,26 +146,9 @@ footer {
   color: #00a3d9;
 }
 
-a {
-  margin: 0px;
-  padding: 0px;
-  color: red;
-}
+/*---------More not pro----------*/
 
-a:hover {
-  text-decoration: none;
-}
-
-a, a:visited {
-  text-decoration: none;
-  color: inherit;
-}
-
-img {
-  pointer-events: none;
-}
-
-nav {
+filter {
   background: white;
   /* Hide balls that go under*/
   position: absolute;
@@ -105,11 +158,6 @@ nav {
   border-width: 2px;
   left: 20px;
   top: 20px;
-}
-
-ul {
-  list-style-type: square;
-  text-align: left;
 }
 
 .warningMessage {
