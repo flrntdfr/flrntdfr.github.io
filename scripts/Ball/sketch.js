@@ -1,6 +1,6 @@
 let balls = [];
 let table;
-let nav;
+let filter;
 let nameOfSelected;
 let categories;
 
@@ -17,14 +17,14 @@ function setup() {
 
   // Prepare dom elements on the page
   rectMode(CENTER);
-  nav = createElement('nav', 'FILTER');
+  filter = createElement('filter', 'FILTER');
   nameOfSelected = createP();
   categories = removeDuplicates(table.getColumn('category'));
   nameOfSelected.position(width/2, 30); //TODO: Use CSS
   let ul = createElement('ul');
-  nav.child(ul);
+  filter.child(ul);
 
-  // Populate the navigation filter
+  // Populate the filterigation filter
   for (let i = 0; i < categories.length; i++) {
     let li = createElement('li', categories[i]);
     ul.child(li);
