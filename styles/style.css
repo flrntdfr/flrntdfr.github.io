@@ -17,8 +17,7 @@ h1:after {
 
 p {
   padding-left: 20px;
-  margin-top: 5px;
-  text-align: justify;
+
 }
 
 a:link {
@@ -84,11 +83,21 @@ nav p {
   padding-left: 0px;
   margin-top: 1em;
   text-align: center;
+  font-weight: bolder;
+
 }
 
 nav li{
   line-height: 1.5em;
   list-style-type: none;
+}
+
+h1 + h2 {
+  padding-top: 0em;
+}
+
+h1 + p {
+  padding-top: 1em;
 }
 
 p + h2 {
@@ -110,8 +119,8 @@ p + h2 {
   display: flex;
   font-size: 1.5em;
   cursor: pointer;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .links span {
@@ -136,10 +145,6 @@ p + h2 {
 
 #flickr:hover {
   color: #ff007d;
-}
-
-#youtube:hover {
-  color: red;
 }
 
 #docker-hub:hover{
