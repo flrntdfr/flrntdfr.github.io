@@ -43,6 +43,7 @@ img {
 }
 
 footer {
+  text-transform: uppercase;
   padding-top: 14px;
   text-align: center;
   position: fixed;
