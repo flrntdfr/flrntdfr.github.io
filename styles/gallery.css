@@ -1,0 +1,11 @@
+filter {
+  background: white;
+  /* Hide balls that go under*/
+  position: absolute;
+  text-align: center;
+  padding: 20px;
+  border: solid;
+  border-width: 2px;
+  left: 20px;
+  top: 20px;
+}

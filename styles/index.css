@@ -1,0 +1,44 @@
+.container {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.links {
+  display: flex;
+  font-size: 1.5em;
+  cursor: pointer;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.links span {
+  flex: 1;
+}
+
+#linkedin:hover {
+  color: #0078b9;
+}
+
+#github:hover {
+  color: grey;
+}
+
+#gitlab:hover {
+  color: #ff6600;
+}
+
+#instagram:hover {
+  color: #574ccd;
+}
+
+#flickr:hover {
+  color: #ff007d;
+}
+
+#docker-hub:hover{
+  color: #00a3d9;
+}
