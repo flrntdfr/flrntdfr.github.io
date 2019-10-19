@@ -1,0 +1,19 @@
+h2.tooltip {
+  position: relative;
+}
+
+h2.tooltip .tooltiptext {
+  font-style: oblique;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.1s;
+}
+
+h2.tooltip .tooltiptext::before {
+  content: "#";
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
