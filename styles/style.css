@@ -1,6 +1,14 @@
+html{
+  height: 100%;
+}
+
+
 body {
   font-family: monospace, Courier, Times;
   padding-bottom: 40px;
+  overflow: hidden;
+  height: 100%;
+  display: flex;
 }
 
 h1 {
@@ -72,6 +80,8 @@ nav {
 .cv {
   /*background: blue;*/
   width: 60%;
+  overflow-y: auto;
+  flex:1;
 }
 
 nav p {
