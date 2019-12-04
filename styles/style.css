@@ -70,18 +70,19 @@ ul {
 }
 
 nav {
-  /*background: red;*/
-  /*position: fixed;*/
   padding-right: 20px;
   margin-right: 20px;
   border-right: solid black 2px;
 }
 
 .cv {
-  /*background: blue;*/
-  width: 60%;
   overflow-y: auto;
   flex:1;
+}
+
+/*TODO: Is this a hack?*/
+.cv .content {
+  width: 70%;
 }
 
 nav p {
