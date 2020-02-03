@@ -5,7 +5,7 @@ let nameOfSelected;
 let categories;
 
 function preload() {
-  table = loadTable("resources/art_projects.csv", 'csv', 'header');
+  table = loadTable("assets/art_projects.csv", 'csv', 'header');
 }
 
 function setup() {
@@ -46,7 +46,7 @@ function draw() {
     balls[i].update();
     balls[i].show();
     balls[i].isHighlighted = false;
-    highlightBall()
+    highlightBall();
   }
 }
 
