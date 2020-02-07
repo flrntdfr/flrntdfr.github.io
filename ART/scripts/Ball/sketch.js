@@ -5,7 +5,7 @@ let nameOfSelected;
 let categories;
 
 function preload() {
-  table = loadTable("assets/art_projects.csv", 'csv', 'header');
+  table = loadTable("scripts/Ball/assets/art_projects.csv", 'csv', 'header');
 }
 
 function setup() {
