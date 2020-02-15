@@ -1,0 +1,64 @@
+body {
+    margin-left: 0px;
+    display: flex;
+}
+
+h1 {
+    text-align: right;
+}
+
+h1:after {
+    content: ' ';
+    display: block;
+    border: 1px solid black;
+}
+
+p {
+    padding-left: 20px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+nav {
+    padding-right: 20px;
+    margin-right: 20px;
+    border-right: solid black 2px;
+}
+
+.cv {
+    overflow-y: auto;
+    flex: 1;
+}
+
+/*TODO: Is this a hack?*/
+.cv .content {
+    width: 70%;
+}
+
+nav p {
+    background: lightGrey;
+    width: 100%;
+    padding-left: 0px;
+    margin-top: 1em;
+    text-align: center;
+    font-weight: bolder;
+}
+
+nav li {
+    line-height: 1.5em;
+    list-style-type: none;
+}
+
+h1+h2 {
+    padding-top: 0em;
+}
+
+h1+p {
+    padding-top: 1em;
+}
+
+p+h2 {
+    padding-top: 2em;
+}
