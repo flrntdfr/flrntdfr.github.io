@@ -1,6 +1,5 @@
 body {
-  font-family: monospace, Courier, Times;
-  margin-left: 35px;
+  font-family: monospace, 'Courier New', Courier, Times;
 }
 
 p + h2 {
@@ -31,6 +30,7 @@ footer {
   left: 0;
   bottom: 0;
   background-color: white;
+  box-shadow: 0px 0px 25px lightgrey;
 }
 
 ul {

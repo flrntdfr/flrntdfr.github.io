@@ -3,65 +3,102 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="description" content="Florent Dufour landing page">
-  <meta name="keywords" content="florent, dufour, landing, welcome, presentation, cv, xyz">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome to my webpage!">
+  <meta name="keywords" content="florent, dufour, landing, welcome, presentation, cv, xyz, blockchain, biotechnology, health">
   <meta name="author" content="Florent Dufour">
-
+  <meta name="language" content="en">
+  <meta name="publisher" content="Florent Dufour">
+  
   <title>Florent Dufour</title>
 
   <link rel="stylesheet" href="/styles/style.css">
   <link rel="stylesheet" href="/styles/methods.css">
   <link rel="stylesheet" href="/styles/strict.css">
   <link rel="stylesheet" href="/styles/index.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+  <script src="lib/typed.min.js"></script>
+
   <link rel="icon" type="image/png" href="/favicon.ico">
 </head>
 
 <body>
   <div class="center-and-center">
-    <img src="./media/signature_black.svg" alt="Signature" initial-scale=200%>
-    </br>
-    <div class="links">
-      <span id=linkedin>
-        <a href="https://www.linkedin.com/in/dufourbiotech/?locale=en_US" target="_blank">
-          <i class="fab fa-linkedin"></i>
-        </a>
-      </span>
+    <div class="static">
+      <img src="./media/signature_black.svg" alt="Signature" initial-scale=200%>
+      
+      <div class="links">
+        <span id=linkedin>
+          <a href="https://www.linkedin.com/in/dufourbiotech/?locale=en_US" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </span>
 
-      <span id="github">
-        <a href="https://github.com/f-dufour" target="_blank">
-          <i class="fab fa-github-square"></i>
-        </a>
-      </span>
+        <span id="github">
+          <a href="https://github.com/f-dufour" target="_blank">
+            <i class="fab fa-github-square"></i>
+          </a>
+        </span>
 
-      <span id=keybase>
-        <a href="https://keybase.io/flrntdfr" target="_blank">
-          <i class="fab fa-keybase"></i>
-        </a>
-      </span>
+        <span id=keybase>
+          <a href="https://keybase.io/flrntdfr" target="_blank">
+            <i class="fab fa-keybase"></i>
+          </a>
+        </span>
 
-      <span id=instagram>
-        <a href="https://www.instagram.com/flrnt.dfr/" target="_blank">
-          <i class="fab fa-instagram"></i>
-        </a>
-      </span>
+        <span id=instagram>
+          <a href="https://www.instagram.com/flrnt.dfr/" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </span>
 
-      <span id=flickr>
-        <a href="https://www.flickr.com/people/bipytrigo?rb=1" target="_blank">
-          <i class="fab fa-flickr"></i>
-        </a>
-      </span>
+        <span id=flickr>
+          <a href="https://www.flickr.com/people/bipytrigo?rb=1" target="_blank">
+            <i class="fab fa-flickr"></i>
+          </a>
+        </span>
 
-      <span id=docker-hub>
-        <a href="https://hub.docker.com/u/florentdufour" target="_blank">
-          <i class="fab fa-docker"></i>
-        </a>
-      </span>
+        <span id=docker-hub>
+          <a href="https://hub.docker.com/u/florentdufour" target="_blank">
+            <i class="fab fa-docker"></i>
+          </a>
+        </span>
+      </div>
+    </div>
+    <div class="dynamic">
+      <!-- Typed phrases go here -->
+      <span id="typed"></span>
     </div>
   </div>
+
+  <div id="typed-strings">
+    <p> Data scientist &amp bioinformatician. </p>
+    <p> Blockchain developer. </p>
+    <p> Health researcher. </p>
+    <p> Data privacy and self-sovereignty. </p>
+    <p> Digital transformation hacker. </p>
+    <p> Photo and video amateur. </p>
+    <p> Podcast addict. </p>
+    <p> Talented, optimistic, caring. </p>
+    <p> Generative art supporter. </p>
+    <p> Open source software contributor. </p>
+    <p> Crypto enthusiast. </p>
+    <p> Minimalist. </p>
+  </div>
+
+  <script>
+    var typed = new Typed('#typed', {
+      stringsElement: '#typed-strings', 
+      typeSpeed: 50,
+      backspeed: 90,
+      smartBackspace: true,
+      loop: true,
+      shuffle: true,
+    });
+  </script>
 
   <footer>
     /
