@@ -2,11 +2,10 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <meta charset="utf-8">
-  <title>404</title>
-  <link rel="stylesheet" href="/styles/style.css">
-  <link rel="stylesheet" href="/styles/strict.css">
-  <link rel="stylesheet" href="/styles/methods.css">
+
+  {% include head.html %}
+  <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/assets/css/methods.css">
+  <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/assets/css/strict.css">
 </head>
 
 <body>
@@ -20,9 +19,7 @@
     You can drop me a line.
   </div>
 
-  <footer>
-    <a href="/">HOME</a>
-  </footer>
+  {% include footer.html %}
 
 </body>
 

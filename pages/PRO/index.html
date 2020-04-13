@@ -1,12 +1,16 @@
+---
+title: PRO
+permalink: /PRO
+---
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
 <head>
-  <meta charset="utf-8">
-  <title>PRO | Florent Dufour</title>
-  <link rel="stylesheet" href="/styles/style.css">
-  <link rel="stylesheet" href="/styles/cv.css">
-  <link rel="stylesheet" href="/styles/tooltip.css">
+  {% include head.html %}
+  
+  <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/assets/css/style.css">
+  <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/assets/css/cv.css">
 </head>
 
 <body>
@@ -104,9 +108,7 @@
     </div>
   </div>
 
-  <footer>
-    <a href="/">HOME</a>
-  </footer>
+{% include footer.html %}
 
 </body>
 </html>
