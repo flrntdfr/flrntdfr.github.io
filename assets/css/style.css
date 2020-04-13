@@ -1,8 +1,18 @@
-body {
-  font-family: monospace, 'Courier New', Courier, Times;
+@font-face {
+  font-family: 'alma';
+  src: url(/assets/fonts/alma/AlmaMono-Regular.otf);
+  src: url(/assets/fonts/alma/almamono-regular-webfont.woff) format('woff'),
+    url(/assets/fonts/alma/almamono-regular-webfont.woff2) format('woff2'),
+    url(/assets/fonts/alma/AlmaMono-Regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
-p + h2 {
+body {
+  font-family: 'alma', monospace, 'Courier New', Courier, Times;
+}
+
+p+h2 {
   padding-top: 1.5em;
 }
 
@@ -15,7 +25,8 @@ a:hover {
   background: #fdf52b;
 }
 
-a, a:visited {
+a,
+a:visited {
   text-decoration: underline;
   color: inherit;
 }
