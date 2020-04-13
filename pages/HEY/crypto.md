@@ -2,13 +2,9 @@
 layout: default
 title: Crypto
 permalink: /HEY/crypto
+header_raw_inject:
+  - <link rel="stylesheet" href="/assets/css/cryptofont.min.css">
 ---
-
-<head>
-    
-    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/cryptofont.min.css">
-
-</head>
 
 # Reach me:
 
