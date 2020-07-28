@@ -8,8 +8,22 @@
   font-style: normal;
 }
 
+@font-face {
+	font-family: 'alma';
+	src: url(/assets/fonts/alma/AlmaMono-Bold.otf);
+	src: url(/assets/fonts/alma/almamono-bold-webfont.woff) format('woff'),
+		url(/assets/fonts/alma/almamono-bold-webfont.woff2) format('woff2'),
+		url(/assets/fonts/alma/AlmaMono-Bold.ttf) format('truetype');
+	font-weight: bold;
+	font-style: bold;
+}
+
 body {
   font-family: 'alma', monospace, 'Courier New', Courier, Times;
+}
+
+::selection {
+	background: #fdf52b;
 }
 
 p+h2 {
