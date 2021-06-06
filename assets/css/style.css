@@ -20,6 +20,7 @@
 
 body {
   font-family: 'alma', monospace, 'Courier New', Courier, Times;
+  letter-spacing: -0.04em;
 }
 
 ::selection {
@@ -61,4 +62,34 @@ footer {
 ul {
   list-style-type: square;
   text-align: left;
+}
+
+button {
+  background-color: white; /* Green */
+  border: solid;
+  color: black;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+button:active {
+  background-color: #fdf52b;
+}
+
+.circular-square {
+  border-radius: 50%;
+}
+
+blockquote {
+  font-style: italic;
 }
