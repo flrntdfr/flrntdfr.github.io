@@ -20,7 +20,7 @@
 
 body {
   font-family: 'alma', monospace, 'Courier New', Courier, Times;
-  letter-spacing: -0.04em;
+  letter-spacing: -0.05em;
 }
 
 ::selection {
@@ -88,6 +88,8 @@ button:active {
 
 .circular-square {
   border-radius: 50%;
+  margin-top: 20pt;
+  margin-bottom: 20pt;
 }
 
 blockquote {
