@@ -1,19 +1,29 @@
+# Website
 title: Florent Dufour
 owner: Florent Dufour
 email: florent@dufour.xyz
-description: >- # this means to ignore newlines until "baseurl:"
+description: >-
   Welcome to my landing page!
-
 baseurl: ""
 url: "https://dufour.xyz"
 title_separator: " | "
 language: en
 encoding: utf-8
 timezone: Europe/Paris
+keywords: "florent, dufour, landing, welcome, presentation, cv, xyz, blockchain, biotechnology, health"
+theme-color: "#fdf52b"
 
+# Social
+linkedin_url: https://www.linkedin.com/in/flrntdfr/?locale=en_US
+github_url: https://github.com/f-dufour
+researchgate_url: https://www.researchgate.net/profile/Florent_Dufour2
+instagram_url: https://www.instagram.com/flrnt.dfr/
+flickr_url: https://www.flickr.com/people/bipytrigo?rb=1
+dockerhub_url: https://hub.docker.com/u/florentdufour"
 github_username: f-dufour
 instagram_username: flrnt.dfr
 
+# Plugins
 gems:
   - jekyll-sitemap
   - jekyll-seo-tag
@@ -26,14 +36,14 @@ gems:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

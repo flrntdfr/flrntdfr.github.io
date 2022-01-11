@@ -5,3 +5,4 @@ _site
 vendor
 .DS_Store
 tampon.txt
+Gemfile.lock
