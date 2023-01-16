@@ -13,42 +13,46 @@ header_raw_inject:
 
   <div class="center-and-center">
     <div class="static">
-      <img src="{% link /assets/images/signature_black.svg %}" alt="Signature" initial-scale=200%>
+        <picture>
+          <source srcset="{% link /assets/images/signature_white.svg %}" media="(prefers-color-scheme:dark)">
+          <img src="{% link /assets/images/signature_black.svg %}">
+        </picture>
+
+    <div class="links">
       
-      <div class="links">
-        <span id=linkedin>
-          <a href="{{ site.linkedin_url }}" target="_blank">
-            <i class="fab fa-linkedin"></i>
-          </a>
-        </span>
+      <span id="github">
+        <a href="{{ site.data.social.linkedin.url }}" target="_blank">
+          <i class="{{ site.data.social.linkedin.fa }}"></i>
+        </a>
+      </span>
 
         <span id="github">
-          <a href="{{ site.github_url }}" target="_blank">
-            <i class="fab fa-github-square"></i>
+          <a href="{{ site.data.social.github.url }}" target="_blank">
+            <i class="{{ site.data.social.github.fa }}"></i>
           </a>
         </span>
 
         <span id="researchgate">
-          <a href="{{ site.researchgate_url }}" target="_blank">
-            <i class="fab fa-researchgate"></i>
+          <a href="{{ site.data.social.researchgate.url }}" target="_blank">
+            <i class="{{ site.data.social.researchgate.fa }}"></i>
           </a>
         </span>
 
         <span id=instagram>
-          <a href="{{ site.instagram_url }}" target="_blank">
-            <i class="fab fa-instagram"></i>
+          <a href="{{ site.data.social.instagram.url }}" target="_blank">
+            <i class="{{ site.data.social.instagram.fa }}"></i>
           </a>
         </span>
 
         <span id=flickr>
-          <a href="{{ site.flickr_url }}" target="_blank">
-            <i class="fab fa-flickr"></i>
+          <a href="{{ site.data.social.flickr.url }}" target="_blank">
+            <i class="{{ site.data.social.flickr.fa }}"></i>
           </a>
         </span>
 
         <span id=docker-hub>
-          <a href="{{ site.dockerhub_url }}" target="_blank">
-            <i class="fab fa-docker"></i>
+          <a href="{{ site.data.social.dockerhub.url }}" target="_blank">
+            <i class="{{ site.data.social.dockerhub.fa }}"></i>
           </a>
         </span>
       </div>
@@ -60,25 +64,24 @@ header_raw_inject:
   </div>
 
   <div id="typed-strings">
+    <p> Ph.D. Student </p>
+    <p> Hardware accelerated scientist. </p>
     <p> Data scientist &amp; bioinformatician. </p>
     <p> Blockchain developer. </p>
     <p> Digital Health researcher. </p>
-    <p> Data privacy &amp; self-sovereignty advocate. </p>
     <p> Digital transformation hacker. </p>
     <p> Photo &amp; video amateur. </p>
     <p> Podcast addict. </p>
     <p> Generative art creator. </p>
     <p> Open source software contributor. </p>
-    <p> I architect clouds. </p>
-    <p> Big data &amp; artificial intelligence. </p>
     <p> Avid coder. </p>
-    <p> Yes, I self-host. </p>
     <p> I put stuff in containers. </p>
-    <p> Yes, I unit test. </p>
     <p> I make machines learn. </p>
-    <p> Hardware accelerated scientist. </p>
+    <p> I architect clouds. </p>
     <p> I teach technology. </p>
-    <p> Trust me, I'm an egineer. </p>
+    <p> Data privacy &amp; self-sovereignty. </p>
+    <p> Big data &amp; artificial intelligence. </p>
+    <p> Trust me, I'm an engineer. </p>
   </div>
 
   <script>
@@ -96,10 +99,10 @@ header_raw_inject:
     /
     <a href="https://blog.dufour.xyz">BLOG</a>
     /
-    <a href="{% link pages/PRO/index.html %}">PRO</a>
+    <a href="{% link pages/CV/CV.md %}">CV</a>
     /
-    <a href="{% link pages/LAB/index.md %}">LAB</a>
+    <a href="{% link pages/ABOUT/ABOUT.md %}">ABOUT</a>
     /
-    <a href="{% link pages/HEY/index.md %}">HEY</a>
+    <a href="{% link pages/LAB/LAB.md %}">LAB</a>
     /
   </footer>

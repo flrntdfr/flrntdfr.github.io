@@ -1,26 +1,20 @@
 # Website
-title: Florent Dufour
+title: Florent du4
 owner: Florent Dufour
 email: florent@dufour.xyz
 description: >-
   Welcome to my landing page!
-baseurl: ""
 url: "https://dufour.xyz"
 title_separator: " | "
 language: en
 encoding: utf-8
 timezone: Europe/Paris
-keywords: "florent, dufour, landing, welcome, presentation, cv, xyz, blockchain, biotechnology, health"
+keywords: "florent, dufour, landing, welcome, presentation, cv, xyz, blockchain, biotechnology, health, AI, Munich, München"
 theme-color: "#fdf52b"
+theme-color-dark: "#333"
 
-# Social
-linkedin_url: https://www.linkedin.com/in/flrntdfr/?locale=en_US
-github_url: https://github.com/f-dufour
-researchgate_url: https://www.researchgate.net/profile/Florent_Dufour2
-instagram_url: https://www.instagram.com/flrnt.dfr/
-flickr_url: https://www.flickr.com/people/bipytrigo?rb=1
-dockerhub_url: https://hub.docker.com/u/florentdufour"
-orcid_url: https://orcid.org/0000-0001-6902-7314
+kramdown:
+  parse_block_html: true
 
 # Plugins
 gems:
