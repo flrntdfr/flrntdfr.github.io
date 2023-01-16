@@ -1,30 +1,18 @@
-@font-face {
-  font-family: 'alma';
-  src: url(/assets/fonts/alma/AlmaMono-Regular.otf);
-  src: url(/assets/fonts/alma/almamono-regular-webfont.woff) format('woff'),
-    url(/assets/fonts/alma/almamono-regular-webfont.woff2) format('woff2'),
-    url(/assets/fonts/alma/AlmaMono-Regular.ttf) format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-	font-family: 'alma';
-	src: url(/assets/fonts/alma/AlmaMono-Bold.otf);
-	src: url(/assets/fonts/alma/almamono-bold-webfont.woff) format('woff'),
-		url(/assets/fonts/alma/almamono-bold-webfont.woff2) format('woff2'),
-		url(/assets/fonts/alma/AlmaMono-Bold.ttf) format('truetype');
-	font-weight: bold;
-	font-style: bold;
+:root {
+	--accent-color: #fdf52b;
+	--accent-color-dark: lightgrey;
+	--font-color: black;
+	--font-color-dark: white ;
+	--background-color: white;
+	--background-color-dark: #333;
 }
 
 body {
-  font-family: 'alma', monospace, 'Courier New', Courier, Times;
-  letter-spacing: -0.05em;
+  font-family: 'LM', Garamond, Serif;
 }
 
 ::selection {
-	background: #fdf52b;
+	background: var(--accent-color);
 }
 
 p+h2 {
@@ -37,7 +25,7 @@ a:link {
 
 a:hover {
   text-decoration: none;
-  background: #fdf52b;
+  background: var(--accent-color);
 }
 
 a,
@@ -47,6 +35,7 @@ a:visited {
 }
 
 footer {
+  font-family: 'alma', monospace, 'Courier New', Courier, Times;
   text-transform: uppercase;
   padding-top: 14px;
   text-align: center;
@@ -55,8 +44,8 @@ footer {
   height: 30px;
   left: 0;
   bottom: 0;
-  background-color: white;
-  box-shadow: 0px 0px 25px lightgrey;
+  background-color: var(--background-color);
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3);
 }
 
 ul {
@@ -65,7 +54,7 @@ ul {
 }
 
 button {
-  background-color: white; /* Green */
+  background-color: --var(--background-color);
   border: solid;
   color: black;
   padding: 15px 15px;
@@ -83,15 +72,88 @@ button:hover {
 }
 
 button:active {
-  background-color: #fdf52b;
+  background-color: var(--accent-color);
 }
 
 .circular-square {
-  border-radius: 50%;
-  margin-top: 20pt;
-  margin-bottom: 20pt;
+  border-radius: 20%;
+	margin-right: 1em;
 }
 
 blockquote {
   font-style: italic;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid;
+  text-align: center;
+	margin-top: 45px;
+	margin-bottom: 0;
+	width: 60%;
+}
+
+hr:after { /* TODO: Fade out edges? */
+  content: "∴";
+  display: inline-block;
+  position: relative;
+  top: -17px; /*Center on line */
+  padding: 0 10px; /*White space*/;
+  background: var(--background-color);
+  font-size: 18px;
+}
+
+@media (prefers-color-scheme: dark) {
+
+	html {
+		background-color: var(--background-color-dark);
+		color: var(--font-color-dark);
+	}
+
+	::selection {
+		background: var(--accent-color-dark);
+	}
+
+	h1, h2, h3 {
+		color: var(--font-color-dark);
+	}
+
+	em,
+	.cta{
+		color: var(--font-color-dark);
+	}
+
+	a.cta ,
+	a:visited.cta { /* Hack? */
+		color: var(--font-color);
+	}
+
+	a:hover {
+		background: var(--accent-color-dark);
+		text-decoration-color: var(--font-color-dark);
+	}
+
+	code, pre {
+		background-color: #222;
+	}
+
+	.footnotes::before {
+		background-color: var(--font-color-dark);
+	}
+
+	blockquote {
+		border-left-color: var(--font-color-dark);
+	}
+
+	#nav {
+		border-bottom-color: var(--font-color-dark);
+	}
+
+	footer {
+		background: var(--background-color-dark);
+	}
+
+	hr:after { /* TODO: Fade out edges? */
+		background: var(--background-color-dark);
+	}
 }

@@ -1,3 +1,8 @@
+body {
+  font-family: 'alma', monospace, 'Courier New', Courier, Times;
+  letter-spacing: -0.05em;
+}
+
 .links {
   display: flex;
   font-size: 1.5em;
@@ -26,11 +31,11 @@
 }
 
 #instagram:hover {
-  color: purple;
+  color: #ff007d;
 }
 
 #flickr:hover {
-  color: #ff007d;
+  color: #0063DC;
 }
 
 #docker-hub:hover{
