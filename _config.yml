@@ -1,5 +1,5 @@
 # Website
-title: Florent du4
+title: Florent Dufour
 owner: Florent Dufour
 email: florent@dufour.xyz
 description: >-
@@ -9,7 +9,7 @@ title_separator: " | "
 language: en
 encoding: utf-8
 timezone: Europe/Paris
-keywords: "florent, dufour, landing, welcome, presentation, cv, xyz, blockchain, biotechnology, health, AI, Munich, München"
+keywords: "florent, dufour, landing, welcome, cv, xyz, blockchain, biotechnology, health, AI, munich"
 theme-color: "#fdf52b"
 theme-color-dark: "#333"
 
