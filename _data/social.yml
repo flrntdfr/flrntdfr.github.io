@@ -22,3 +22,6 @@ orcid:
 soundcloud:
   url: https://soundcloud.com/flrntdfr
   fa: fa-brands fa-soundcloud
+scholar:
+  url: https://scholar.google.com/citations?user=7cJM1YsAAAAJ
+  fa: fab fa-google

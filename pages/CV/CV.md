@@ -22,8 +22,9 @@ css:
 
 **Technologies**: Tensorflow, Numpy, Pandas, Matplotlib, Processing, Docker, Hyperledger, SpringBoot, JavaFX, Maven, JUnit.
 
-**Platforms**: GNU/UN*X, macOS, OpenStack, slurm, aws ec2 &amp; S3.
-**Graphics**: \LaTeX, marpit.js, Lightroom, Photoshop, Illustrator, Final Cut Pro X.
+**Platforms**: GNU/UN\*X, macOS, OpenStack, slurm, aws ec2 &amp; S3.
+
+**Graphics**: Adobe Photoshop, Illustrator, Lightroom, Final Cut Pro X, \LaTeX, marpit.js
 
 **Environments and norms**: ISO 9001, ISO 27k, GDPR, GMP, lab confinement up to P3.
 
@@ -32,7 +33,6 @@ css:
 {% for edu in site.data.cv-education %}
   **{{ edu.date }}: {{ edu.diploma }}**: {{ edu.description }}
 {% endfor %}
-
 
 # Research Experience
 
@@ -52,7 +52,7 @@ css:
   1. {{ publication }}
 {% endfor %}
 
-You can also visit [my ORCID]({{ site.data.social.orcid.url }}).
+You can also find me on [ORCID]({{ site.data.social.orcid.url }}) and [Google Scholar]({{ site.data.social.scholar.url }}).
 
 # Talks
 
