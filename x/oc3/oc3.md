@@ -9,9 +9,11 @@ permalink: /x/oc3
 Conference Talk, Open Confidential Computing Conference, Online<br>
 March 15<sup>th</sup> 2023
 </center>
-
-## Abstract
-
+<br>
+<center>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/013OkV_LupE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
+<br>
 Since 2018, the Bavarian ministry of health has invested 24.5 million euros in the DigiMed Bayern project with the ambition to create the lighthouse that will guide Germany towards the medicine of the future. By developing a legal framework and a secure environment powered by confidential computing technologies, over one hundred researchers, clinicians, lawyers, and tinkerers from academia and industry across 14 institutions have found a sovereign computing environment to collaborate on sensitive multi-omic medical data. With the common goal to advance research on heart disease, they already published more than 50 scientific publications and developed large-scale studies and smart wearable technologies.
 
 In the first part of this talk, we will focus on the Bavarian Cloud for Health Research (BCHR) which is the cornerstone of the project. Architected around confidential computing technologies and hosted at the top-tier Leibniz Supercomputing Centre (LRZ) in Munich, we will present how the Big Data and Artificial Intelligence team has engineered the BCHR with security and performance for AI/ML workloads in mind. We will showcase heterogeneous workloads running on the OpenStack-based cloud with hundreds of cores at the petabyte scale, as well as its prospective integration in the European cloud GAIA-X.
@@ -22,4 +24,4 @@ In the second part of this talk, we will focus on a new axis of research opened 
 - Slides: as [PDF]({% link x/oc3/2023/slides.pdf %})
 - Abstract: as [PDF]({% link x/oc3/2023/abstract.pdf %})
 
-<br><br><br><br><br>
+<br><br><br><br>
