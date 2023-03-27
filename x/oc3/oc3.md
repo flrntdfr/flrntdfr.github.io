@@ -9,10 +9,11 @@ permalink: /x/oc3
 Conference Talk, Open Confidential Computing Conference, Online<br>
 March 15<sup>th</sup> 2023
 </center>
-<br>
-<center>
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/013OkV_LupE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</center>
+
+<div class="iframe-container">
+<iframe src="https://www.youtube-nocookie.com/embed/013OkV_LupE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
 <br>
 Since 2018, the Bavarian ministry of health has invested 24.5 million euros in the DigiMed Bayern project with the ambition to create the lighthouse that will guide Germany towards the medicine of the future. By developing a legal framework and a secure environment powered by confidential computing technologies, over one hundred researchers, clinicians, lawyers, and tinkerers from academia and industry across 14 institutions have found a sovereign computing environment to collaborate on sensitive multi-omic medical data. With the common goal to advance research on heart disease, they already published more than 50 scientific publications and developed large-scale studies and smart wearable technologies.
 

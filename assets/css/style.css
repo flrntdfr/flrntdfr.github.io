@@ -111,6 +111,22 @@ hr:after { /* TODO: Fade out edges? */
   font-size: 18px;
 }
 
+.iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9*/
+  position: relative;
+	margin-top: 1em;
+}
+
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+
 @media (prefers-color-scheme: dark) {
 
 	html {
