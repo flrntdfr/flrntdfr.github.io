@@ -27,7 +27,7 @@ css:
 
 **Graphics**: Adobe Photoshop, Illustrator, Lightroom, Final Cut Pro X, <span markdown=0 class="latex-logo"><span class="L">L</span><span class="A">A</span><span class="T">T</span><span class="E">E</span><span class="x">X</span></span>.
 
-**Environments and norms**: ISO 9001, ISO 27k, RGPD, GMP, lab confinement up to P3.
+**Environments and norms**: ISO 9001, ISO 27k, GDPR, GMP, lab confinement up to P3.
 
 # Education
 
