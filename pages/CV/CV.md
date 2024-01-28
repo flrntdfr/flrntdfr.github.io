@@ -4,29 +4,30 @@ title: CV
 permalink: /CV
 css:
   - nav.css
+  - latex.css
 ---
 
 {% include nav.html %}
 
 # tl;dr
 
-- Florent Dufour, 🇫🇷, ~~26~~ 27 years old.
+- Florent Dufour, 🇫🇷, ~~27~~ 28 years old.
 - Ph.D. Student - AI in Medicine, Technical University Munich (TUM) 🇩🇪.
 - Research engineer - Big data and AI, Leibniz Supercomputing Centre (LRZ).
 - Graduate student - Universities of Strasbourg, Freiburg, &amp; Basel (tri-national program).
-- Biologist, health researcher, data scientist, and AI developer.
+- Biologist, health researcher, data scientist, and AI researcher.
 - Interested in life science, healthcare, cloud technology, AI, data privacy, and self-sovereignty.
 - Passionate about education, audiovisual production, podcasting, and generative art.
 
-**Languages**: French, English, German, Python, Java, R, bash, HTML/CSS/JS, Swift, SQL, ~~MATLAB~~.
+**Languages**: French, English, Python, German, Java, R, bash, HTML/CSS/JS, Swift, SQL, ~~MATLAB~~.
 
-**Technologies**: Tensorflow, Numpy, Pandas, Matplotlib, Processing, Docker, Hyperledger, SpringBoot, JavaFX, Maven, JUnit.
+**Technologies**: Tensorflow, PyTorch, Numpy, Pandas, Matplotlib, Docker, Processing, Hyperledger, SpringBoot, Vaadin.
 
-**Platforms**: GNU/UN\*X, macOS, OpenStack, slurm, aws ec2 &amp; S3.
+**Platforms**: GNU/UN\*X, macOS, OpenStack, slurm.
 
-**Graphics**: Adobe Photoshop, Illustrator, Lightroom, Final Cut Pro X, \LaTeX, marpit.js
+**Graphics**: Adobe Photoshop, Illustrator, Lightroom, Final Cut Pro X, <span markdown=0 class="latex-logo"><span class="L">L</span><span class="A">A</span><span class="T">T</span><span class="E">E</span><span class="x">X</span></span>.
 
-**Environments and norms**: ISO 9001, ISO 27k, GDPR, GMP, lab confinement up to P3.
+**Environments and norms**: ISO 9001, ISO 27k, RGPD, GMP, lab confinement up to P3.
 
 # Education
 

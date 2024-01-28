@@ -1,0 +1,26 @@
+.latex-logo {
+
+}
+
+.latex-logo .L {
+    letter-spacing: -0.35em;
+}
+
+.latex-logo .A {
+    font-size: 0.8em;
+    vertical-align: 0.15em;
+    letter-spacing: -0.25em;
+}
+
+.latex-logo .T {
+    letter-spacing: -0.15em;
+}
+
+.latex-logo .E {
+    vertical-align: -0.21em;
+    letter-spacing: -0.1em;
+}
+
+.latex-logo .X {
+
+}

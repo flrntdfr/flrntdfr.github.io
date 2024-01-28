@@ -2,16 +2,17 @@
   location: Leibniz Supercomputing Centre, Munich
   title: Introduction to Container Technology &amp; Application to AI
   description: >- 
-    Theory and practice on containers, High Performance Computing, Artificial Intelligence and Reproducible Science
+    AI Systems, GPU Computing, docker, enroot, CNN, Tensorflow, MLOps, AI for lifescience&#133;
     ([link](https://doku.lrz.de/x/eQBvB)).
 - date: 2022 - NOW
   location: Leibniz Supercomputing Centre, Munich  
-  title: Introduction to Multi user Cluster Computers
+  title: Introduction to High Performane Computing
   description: >-
-    This is the description ([link](https://doku.lrz.de/x/nYBBBw)).
+    History of Computing, Parallel Computing, SLURM, whisper.cpp&#133;
+    ([link](https://doku.lrz.de/x/nYBBBw)).
 - date: 2022 - 2023
   location: Open Hackathons
-  title: Nvidia AI for Science Bootcamp
+  title: Nidia AI for Science Bootcamp
   description: >- 
     Bootcamp coorganised by EuroCC and supercomputing centres in Germany and Austria dedicated to AI and Deep Learning. Hands-on carried out on the Nvidia Curiosity Cluster
     ([link](https://www.openhackathons.org/s/siteevent/a0C5e000007ZVY2EAO/se000174), [code](https://github.com/openhackathons-org/gpubootcamp)).
@@ -23,13 +24,13 @@
   location: Strasbourg
   title: Facilitator in bioethics
   description: Supervising think tanks and workshops related to ethics and engineering.
-    _i.e. Artificial intelligence and new concerns, Data acquisition and safeguarding, Open Access and the current model of scientific publishing, Individual right to death..._
+    _i.e., Artificial intelligence and new concerns, Data acquisition and safeguarding, Open Access and the current model of scientific publishing, Individual right to death..._
 - date: 2018
   location: Strasbourg
   title: Tutoring
-  description: Preparing students for bachelor graduation (principally mathematics, statistics, and physics
+  description: Preparing students for bachelor graduation (principally mathematics, statistics, and physics)
 - date: 2015 - 2018
   location: Around France
   title: Scientific workshops
   description: >-
-    During summer camps with teenagers: _Raft crafting, volcano modelling, skyrocket designing, molecular gastronomy..._
+    During summer camps with teenagers: _Raft crafting, volcano modelling, skyrocket experimentation, molecular gastronomy..._
