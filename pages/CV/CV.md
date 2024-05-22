@@ -11,23 +11,20 @@ css:
 
 # tl;dr
 
-- Florent Dufour, 🇫🇷, ~~27~~ 28 years old.
-- Ph.D. Student - AI in Medicine, Technical University Munich (TUM) 🇩🇪.
-- Research engineer - Big data and AI, Leibniz Supercomputing Centre (LRZ).
-- Graduate student - Universities of Strasbourg, Freiburg, &amp; Basel (tri-national program).
-- Biologist, health researcher, data scientist, and AI researcher.
-- Interested in life science, healthcare, cloud technology, AI, data privacy, and self-sovereignty.
-- Passionate about education, audiovisual production, podcasting, and generative art.
+- Florent Dufour, 🇫🇷, 28 years old, Ph.D. Student, AI in Medicine  / Trustworthy AI.
+- Affiliated with the Technical University Munich (TUM) & Leibniz Supercomputing Centre (LRZ) 🇩🇪.
+- Interested in Privacy Enhancing Technologies, Confidential Cloud Computing, Health Research, and self-sovereignty.
+- Passionate about education, geopolitics, audiovisual media, podcasting, and generative art.
 
 **Languages**: French, English, Python, German, Java, R, bash, HTML/CSS/JS, Swift, SQL, ~~MATLAB~~.
 
-**Technologies**: Tensorflow, PyTorch, Numpy, Pandas, Matplotlib, Docker, Processing, Hyperledger, SpringBoot, Vaadin.
+**Technologies**: PyTorch, Tensorflow, OpenStack, Docker, Terraform, ansible, Processing, Hyperledger, SpringBoot, Vaadin.
 
 **Platforms**: GNU/UN\*X, macOS, OpenStack, slurm.
 
 **Graphics**: Adobe Photoshop, Illustrator, Lightroom, Final Cut Pro X, <span markdown=0 class="latex-logo"><span class="L">L</span><span class="A">A</span><span class="T">T</span><span class="E">E</span><span class="x">X</span></span>.
 
-**Environments and norms**: ISO 9001, ISO 27k, GDPR, GMP, lab confinement up to P3.
+**Environments and norms**: ISO 9001, ISO 27k, GDPR, lab confinement up to P3.
 
 # Education
 
