@@ -1,9 +1,12 @@
+# macOS
+.DS_Store
+
+# Jekyll
 _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
 vendor
-.DS_Store
-tampon.txt
-Gemfile.lock
+
+# VSCode
 .vscode
