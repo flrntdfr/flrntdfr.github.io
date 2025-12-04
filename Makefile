@@ -1,5 +1,7 @@
 # dufour.xyz
 # 2018 - 2024
-wq
+
+PORT := 4000
+
 serve:
-	python3 -m http.server 4000
+	python3 -m http.server $(PORT)
